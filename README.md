@@ -1,10 +1,34 @@
-# food_ordering_app
+# food-ordering-app
 
-A new Flutter application.
+## 👣 steps to run the project
+- Clone the repo in your local machine
+- do ```flutter pub get``` in terminal
+- do ```flutter run``` in terminal
 
-## Getting Started
+## 💡 features
+## Customer side:
+- Scan QR via the app
+- View menu
+- Place order
+- Payment with or without Discount (Promo codes)
+- Order history (if singed in)
+- Recommendation engine (if signed in)
 
-This project is a starting point for a Flutter application.
+## Vendor side:
+- Orders (current, this weeks and history)
+- Revenue (Today, This week and history)
+- Menu
+	- Category
+	- Input item name
+	- Different serving/portions with pricing
+	- Spice meter (chilly icons)
+- Settings-> Restaurant name, Logo, Number of tables, Generate QR PDF
+
+
+## made with 💕 by: DSC SRM
+
+
+## Getting Started With Flutter
 
 A few resources to get you started if this is your first Flutter project:
 
