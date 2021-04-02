@@ -22,14 +22,23 @@ class _LoginPageState extends State<LoginPage> {
           child: Stack(
             children: [
               Align(
-                  alignment: Alignment.topLeft,
-                  child: Image.asset('assets/images/tl.png')),
+                  alignment: Alignment(-1.5, -1.1),
+                  child: Image.asset(
+                    'assets/images/meal1.png',
+                    width: 180,
+                  )),
               Align(
-                  alignment: Alignment.topRight,
-                  child: Image.asset('assets/images/tr.png')),
+                  alignment: Alignment(2.75, -1.15),
+                  child: Image.asset(
+                    'assets/images/meal2.png',
+                    width: 230,
+                  )),
               Align(
-                  alignment: Alignment(1, 0.85),
-                  child: Image.asset('assets/images/br.png')),
+                  alignment: Alignment(2, 0.85),
+                  child: Image.asset(
+                    'assets/images/meal3.png',
+                    width: 180,
+                  )),
               Align(
                 alignment: Alignment.center,
                 child: Padding(
