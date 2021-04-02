@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_ordering_app/widgets/custom_textfield.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key key}) : super(key: key);
@@ -74,7 +75,9 @@ class _LoginPageState extends State<LoginPage> {
                                 child: SizedBox(
                                     width: 40,
                                     height: 40,
-                                    child: Image.asset('assets/images/fb.png')),
+                                    child: SvgPicture.asset(
+                                      'assets/images/fb.svg',
+                                    )),
                                 onTap: () {},
                               ),
                             ),
