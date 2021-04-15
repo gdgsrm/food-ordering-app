@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_ordering_app/utils/constants.dart';
 import 'package:food_ordering_app/widgets/custom_textfield.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -16,7 +17,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[900],
+      backgroundColor: kBlack1,
       body: SingleChildScrollView(
         child: Container(
           height: MediaQuery.of(context).size.height,
@@ -124,7 +125,7 @@ class _LoginPageState extends State<LoginPage> {
                             style: ElevatedButton.styleFrom(
                                 padding: EdgeInsets.symmetric(
                                     horizontal: 36, vertical: 15),
-                                primary: Color(0xffebff00)),
+                                primary: kYellow1),
                           ),
                           Spacer(),
                           TextButton(
